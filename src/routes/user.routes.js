@@ -2,6 +2,7 @@ import { Router } from "express";
 import ProductManager from "../productManager.js";
 import CartManager from "../cartManager.js";
 import setup from "../config.js";
+// import newProduct from '../views/rea'
 
 const endPoints = Router();
 const itemsManager = new ProductManager("../src/files/products.json");
@@ -19,6 +20,9 @@ endPoints.get("/", (req, res) => {
 
 // ---> VISTA REALTIMEPRODUCTS
 endPoints.get("/realtimeproducts", async (req, res) => {
+  
+  // itemsManager.addProducts()
+  
   const allItems = await itemsManager.getProducts();
 
   res.render("realTimeProducts", { allItems });

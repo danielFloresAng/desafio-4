@@ -23,7 +23,7 @@
       placeholder="Precio del producto"
     />
     <br />
-
+    <button type="submit">Agregar</button>
   </form><hr />
   {{#each allItems}}
     <p>ID: {{this.id}}</p>
@@ -33,4 +33,14 @@
   {{/each}}
 </div>
 <script src="/socket.io/socket.io.js"></script>
-<script src="../public/js/index.js"></script>
+
+<script >
+  const socket = io() 
+
+export let newProduct = {
+  title: document.getElementById('title').value,
+  description: document.getElementById('description').value,
+  price: document.getElementById('price').value;
+
+}
+</script>
