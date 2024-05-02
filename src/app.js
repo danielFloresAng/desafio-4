@@ -20,6 +20,6 @@ const httpServer = app.listen(
 );
 const socketServer = new Server(httpServer);
 
-socketServer.on("conection", socket => {
-  console.log("loco, socket funcionando, che");
+socketServer.on("connection", (socket) => {
+  console.log("cliente conectado");
 });

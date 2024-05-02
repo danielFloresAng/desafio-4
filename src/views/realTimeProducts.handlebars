@@ -1,0 +1,36 @@
+<div>
+  <h2>Estos son nuestros productos:</h2><br />
+  <h3>Agregar productos: </h3>
+  <form action="">
+    <label for="title">Producto: </label><input
+      name="title"
+      id="title"
+      type="text"
+      placeholder="Nombre del producto"
+    />
+    <br />
+    <label for="description">Descripción: </label><input
+      name="description"
+      id="description"
+      type="text"
+      placeholder="Descripción del producto"
+    />
+    <br />
+    <label for="price">Precio: </label><input
+      name="price"
+      id="price"
+      type="number"
+      placeholder="Precio del producto"
+    />
+    <br />
+
+  </form><hr />
+  {{#each allItems}}
+    <p>ID: {{this.id}}</p>
+    <p>Producto: {{this.title}}</p>
+    <p>Descripción: {{this.description}}</p>
+    <p>Precio: ${{this.price}}</p><hr />
+  {{/each}}
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../public/js/index.js"></script>

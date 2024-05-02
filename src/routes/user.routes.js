@@ -9,7 +9,25 @@ const cartManager = new CartManager("../src/files/carts.json");
 
 // ---> GET DE INICIO EN LOCAL HOST 8080
 endPoints.get("/", (req, res) => {
-  res.status(200).send(`<h2>Bienvenido al puerto ${setup.PORT} :)</h2>`);
+  let user = {
+    name: "Usuario",
+    PORT: setup.PORT,
+  };
+
+  res.render("index", user);
+});
+
+// ---> VISTA REALTIMEPRODUCTS
+endPoints.get("/realtimeproducts", async (req, res) => {
+  const allItems = await itemsManager.getProducts();
+
+  res.render("realTimeProducts", { allItems });
+});
+// ---> VISTA HOME
+endPoints.get("/home", async (req, res) => {
+  const allItems = await itemsManager.getProducts();
+
+  res.render("home", { allItems });
 });
 
 // ---> GET PARA DEVOLVER PRODUCTOS CON UN LIMITE
@@ -106,7 +124,7 @@ endPoints.post("/api/carts/:cid/product/:pid", async (req, res) => {
   res.send({ status: "ok", playload: cartFilter });
 });
 endPoints.get("./", (req, res) => {
-  res.render("index",{});
+  res.render("index", {});
 });
 
 export default endPoints;
