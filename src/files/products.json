@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "title": "producto prueba 3",
+    "description": "Este es el producto prueba 3",
+    "code": "abc3",
+    "price": 200,
+    "status": true,
+    "stock": 6,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 2,
+    "title": "producto prueba 1",
+    "description": "Este es el producto prueba 1",
+    "code": "abc1",
+    "price": 200,
+    "status": true,
+    "stock": 2,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 3,
+    "title": "producto prueba 2",
+    "description": "Este es el producto prueba 2",
+    "code": "abc2",
+    "price": 400,
+    "status": true,
+    "stock": 3,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 4,
+    "title": "producto prueba 4",
+    "description": "Este es el producto prueba 4",
+    "code": "abc4",
+    "price": 230,
+    "status": true,
+    "stock": 4,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 5,
+    "title": "producto prueba 5",
+    "description": "Este es el producto prueba 5",
+    "code": "abc5",
+    "price": 200,
+    "status": true,
+    "stock": 8,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 6,
+    "title": "producto prueba 6",
+    "description": "Este es el producto prueba 6",
+    "code": "abc6",
+    "price": 460,
+    "status": true,
+    "stock": 3,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 7,
+    "title": "producto prueba 7",
+    "description": "Este es el producto prueba 7",
+    "code": "abc7",
+    "price": 490,
+    "status": true,
+    "stock": 9,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 8,
+    "title": "producto prueba 8",
+    "description": "Este es el producto prueba 8",
+    "code": "abc8",
+    "price": 660,
+    "status": true,
+    "stock": 2,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 9,
+    "title": "producto prueba 9",
+    "description": "Este es el producto prueba 9",
+    "code": "abc9",
+    "price": 750,
+    "status": true,
+    "stock": 8,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 10,
+    "title": "producto prueba 10",
+    "description": "Este es el producto prueba 10",
+    "code": "abc10",
+    "price": 1020,
+    "status": true,
+    "stock": 3,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 11,
+    "title": "producto prueba 12",
+    "description": "Este es el producto prueba 11",
+    "code": "abc12",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 12,
+    "title": "producto prueba 13",
+    "description": "Este es el producto prueba 13",
+    "code": "abc13",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 13,
+    "title": "producto prueba 13",
+    "description": "Este es el producto prueba 13",
+    "code": "abc111",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 14,
+    "title": "producto prueba 14",
+    "description": "Este es el producto prueba 13",
+    "code": "abc1133",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 15,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abc15",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 16,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abc112",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 17,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abcadas1",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 18,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abasdfdc1",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 19,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abawdwdfsdfdc1",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 20,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abawdwdfsadfsfadfdc1",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  },
+  {
+    "id": 21,
+    "title": "producto prueba 15",
+    "description": "Este es el producto prueba 15",
+    "code": "abawdwdfsadfsfadsdfdfdffdc1",
+    "price": 1020,
+    "status": true,
+    "stock": 5,
+    "category": "thriller",
+    "thumbnails": ["Sin imagen"]
+  }
+]

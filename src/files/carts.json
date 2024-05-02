@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "products": [
+      {
+        "id": 1,
+        "title": "producto prueba 1",
+        "description": "Este es el producto prueba 1",
+        "code": "abasd45gadsc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "id": 2,
+        "title": "producto prueba 2",
+        "description": "Este es el producto prueba 2",
+        "code": "abca445sasdasd52",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "id": 3,
+        "title": "producto prueba 3",
+        "description": "Este es el producto prueba 3",
+        "code": "abasdas65dc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"],
+        "quantity": 3
+      },
+      {
+        "id": 4,
+        "title": "producto prueba 4",
+        "description": "Este es el producto prueba 2",
+        "code": "abc546gvs452",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      { "productID": "7", "quantity": 1 },
+      { "productID": "8", "quantity": 1 },
+      { "productID": "10", "quantity": 2 }
+    ]
+  },
+  {
+    "id": 2,
+    "products": [
+      {
+        "id": 2,
+        "title": "producto prueba 2",
+        "description": "Este es el producto prueba 2",
+        "code": "abasd45gadsc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "id": 3,
+        "title": "producto prueba 3",
+        "description": "Este es el producto prueba 3",
+        "code": "abca445sasdasd52",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "id": 5,
+        "title": "producto prueba 5",
+        "description": "Este es el producto prueba 5",
+        "code": "abasdas65dc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"],
+        "quantity": 3
+      },
+      {
+        "id": 8,
+        "title": "producto prueba 8",
+        "description": "Este es el producto prueba 8",
+        "code": "abc546gvs452",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      { "productID": "10", "quantity": 1 },
+      { "productID": "4", "quantity": 2 },
+      { "productID": "15", "quantity": 2 }
+    ]
+  },
+  {
+    "id": 3,
+    "products": [
+      {
+        "title": "producto prueba 2 cambio",
+        "description": "Este es el producto prueba 2",
+        "code": "abasd45gadsc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "title": "producto prueba 65 cambio",
+        "description": "Este es el producto prueba 2",
+        "code": "abca445sasdasd52",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "title": "producto prueba 2 cambio",
+        "description": "Este es el producto prueba 2",
+        "code": "abasdas65dc2",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      },
+      {
+        "title": "producto prueba 65 cambio",
+        "description": "Este es el producto prueba 2",
+        "code": "abc546gvs452",
+        "price": 400,
+        "status": true,
+        "stock": 3,
+        "category": "thriller",
+        "thumbnails": ["Sin imagen"]
+      }
+    ]
+  }
+]
