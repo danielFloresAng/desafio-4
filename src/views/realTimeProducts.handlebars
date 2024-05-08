@@ -33,14 +33,7 @@
   {{/each}}
 </div>
 <script src="/socket.io/socket.io.js"></script>
-
-<script >
-  const socket = io() 
-
-export let newProduct = {
-  title: document.getElementById('title').value,
-  description: document.getElementById('description').value,
-  price: document.getElementById('price').value;
-
-}
+<script>
+  const socket = io();
+socket.emit("message", "Mensaje de cliente desde websocket");
 </script>

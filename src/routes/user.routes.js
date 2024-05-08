@@ -20,9 +20,8 @@ endPoints.get("/", (req, res) => {
 
 // ---> VISTA REALTIMEPRODUCTS
 endPoints.get("/realtimeproducts", async (req, res) => {
-  
   // itemsManager.addProducts()
-  
+
   const allItems = await itemsManager.getProducts();
 
   res.render("realTimeProducts", { allItems });
@@ -80,7 +79,7 @@ endPoints.put("/api/products/:pid", async (req, res) => {
 });
 
 // ---> DELETE PARA BORRAR PRODUCTOS CON EL ID SELECCIONADO
-endPoints.delete("/api/products/d", async (req, res) => {
+endPoints.delete("/api/products/:pid", async (req, res) => {
   const deleteItem = req.params.pid;
   await itemsManager.deleteProduct(deleteItem);
 
@@ -127,7 +126,7 @@ endPoints.post("/api/carts/:cid/product/:pid", async (req, res) => {
 
   res.send({ status: "ok", playload: cartFilter });
 });
-endPoints.get("./", (req, res) => {
+endPoints.get("/", (req, res) => {
   res.render("index", {});
 });
 

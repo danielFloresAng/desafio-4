@@ -62,10 +62,9 @@ class ProductManager {
 
     if (filterItem !== -1) {
       itemsList.splice(filterItem, 1);
-      // return itemsList
     }
     let listJSON = JSON.stringify(itemsList);
-    // await fs.promises.writeFile(this.path, listJSON);
+
     await fs.promises.writeFile(this.path, listJSON);
   }
 }
